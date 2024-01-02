@@ -1,0 +1,57 @@
+/* Kode CSS Anda di sini */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally within the body */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #e73939;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Edit urutan gambar */
+.gambar {
+  display: flex;
+  justify-content: center; /* Mengatur tata letak gambar ke tengah horizontal */
+  align-items: center; /* Mengatur tata letak gambar ke tengah vertikal */
+}
+
+.gambar img:nth-child(1) {
+  order: 3; /* Gambar pertama (hormat.png) */
+  width:500px;
+}
+
+.gambar img:nth-child(2) {
+  order: 1; /* Gambar kedua (Lambang_Kota_Serang.png) */
+  width: 150px;
+}
+
+.gambar img:nth-child(3) {
+  order: 2; /* Gambar ketiga (paskibraka.png) */
+  width: 150px;
+}
